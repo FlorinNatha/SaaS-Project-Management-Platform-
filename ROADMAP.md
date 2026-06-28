@@ -11,7 +11,7 @@ Before writing business logic, we need to set up the skeleton of our system.
 - [x] **Repository Structure**: Set up the monorepo folder structure (`frontend`, `backend`, `infra`, `monitoring`).
 - [x] **Global `.gitignore`**: Populate the root `.gitignore` file to ignore node_modules, Java target/build folders, IDE configurations, and environment variables.
 - [x] **Shared Library Initialization**: Create the `backend/shared-libs` module (using Maven or Gradle). This will house your standard DTOs, custom exceptions, and JWT utilities that multiple services will need.
-- [ ] **Docker Compose Setup (Local Dev)**: Create an `infra/docker/docker-compose.yml` file to spin up your foundational databases:
+- [x] **Docker Compose Setup (Local Dev)**: Create an `infra/docker/docker-compose.yml` file to spin up your foundational databases:
   - PostgreSQL (with multiple databases for each service)
   - Redis
   - Kafka & Zookeeper
