@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: auth-service
+          uri: lb://AUTH-SERVICE
+          predicates:
+            - Path=/api/auth/**
+        - id: workspace-service
+          uri: lb://WORKSPACE-SERVICE
+          predicates:
+            - Path=/api/workspaces/**
+        - id: project-service
+          uri: lb://PROJECT-SERVICE
+          predicates:
+            - Path=/api/projects/**
+        - id: task-service
+          uri: lb://TASK-SERVICE
+          predicates:
+            - Path=/api/tasks/**
+
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970

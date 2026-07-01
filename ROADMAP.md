@@ -20,7 +20,7 @@ Before writing business logic, we need to set up the skeleton of our system.
 
 Start with the backend services that handle identity and basic app structure.
 
-- [ ] **Service 1: API Gateway (`backend/gateway`)**
+- [x] **Service 1: API Gateway (`backend/gateway`)**
   - Initialize a Spring Cloud Gateway project.
   - Set up routing rules to forward requests to downstream services.
   - Implement a Global Filter to validate JWT tokens.
