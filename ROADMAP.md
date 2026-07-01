@@ -24,7 +24,7 @@ Start with the backend services that handle identity and basic app structure.
   - Initialize a Spring Cloud Gateway project.
   - Set up routing rules to forward requests to downstream services.
   - Implement a Global Filter to validate JWT tokens.
-- [ ] **Service 2: Auth Service (`backend/auth-service`)**
+- [x] **Service 2: Auth Service (`backend/auth-service`)**
   - Implement User Registration & Login.
   - Configure Spring Security & JWT Generation.
   - Connect to PostgreSQL to store Users and Roles.
