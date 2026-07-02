@@ -31,7 +31,7 @@ Start with the backend services that handle identity and basic app structure.
 - [x] **Service 3: Workspace Service (`backend/workspace-service`)**
   - Implement multi-tenancy logic (Workspaces/Organizations).
   - Create endpoints to manage workspace members and roles.
-- [ ] **Service 4: Project & Task Services (`backend/project-service`, `backend/task-service`)**
+- [x] **Service 4: Project & Task Services (`backend/project-service`, `backend/task-service`)**
   - Create CRUD endpoints for Projects.
   - Create CRUD endpoints for Tasks (assignees, status, due dates).
   - Define the Kanban board data structures.
