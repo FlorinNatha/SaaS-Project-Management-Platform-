@@ -28,7 +28,7 @@ Start with the backend services that handle identity and basic app structure.
   - Implement User Registration & Login.
   - Configure Spring Security & JWT Generation.
   - Connect to PostgreSQL to store Users and Roles.
-- [ ] **Service 3: Workspace Service (`backend/workspace-service`)**
+- [x] **Service 3: Workspace Service (`backend/workspace-service`)**
   - Implement multi-tenancy logic (Workspaces/Organizations).
   - Create endpoints to manage workspace members and roles.
 - [ ] **Service 4: Project & Task Services (`backend/project-service`, `backend/task-service`)**
